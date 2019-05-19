@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion Integer.parseInt(project.CompileSdkVersion)
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(project.MinSdkVersion)
+        targetSdkVersion Integer.parseInt(project.TargetSdkVersion)
+        versionCode Integer.parseInt(project.VersionCode)
+        versionName project.VersionName
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:22+'
+    implementation files('libs/license.jar')
+}

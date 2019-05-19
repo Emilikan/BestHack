@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewStart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="310dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:autoLink="all"
+            android:background="@drawable/button_profile"
+            android:text="Банковская карта"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textSize="30dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="310dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_profile"
+            android:text="Топливная карта"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonLib"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="310dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_profile"
+            android:text="Библиотека"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonSett"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="310dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_profile"
+            android:text="Настройки"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

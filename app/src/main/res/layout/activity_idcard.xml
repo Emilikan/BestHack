@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_idcard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".IDCardActivity">
+
+    <Button
+        android:id="@+id/gallery_button_front"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:background="@drawable/button_profile"
+        android:text="相册选择 正面"
+        android:visibility="gone"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/gallery_button_back"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:background="@drawable/button_profile"
+        android:text="相册选择 反面"
+        android:visibility="gone"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/id_card_front_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:background="@drawable/button_profile"
+        android:text="Лицевая сторона вашей карты"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/id_card_front_button_native"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:background="@drawable/button_profile"
+        android:text="Контроль качества(перед)"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/id_card_back_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:background="@drawable/button_profile"
+        android:text="Обратная сторона вашей карты"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/id_card_back_button_native"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:background="@drawable/button_profile"
+        android:text="Контроль качества(зад)"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/info_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
